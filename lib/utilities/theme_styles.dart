@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/utilities/theme_colors.dart';
 
 class ThemeStyles {
   static TextStyle departureTextStyle = const TextStyle(
@@ -17,6 +18,23 @@ class ThemeStyles {
   );
   static TextStyle dropDownTextStyle = const TextStyle(
     color: Colors.white,
+    fontSize: 15.0,
+  );
+  static TextStyle ticketPriceTextStyle = TextStyle(
+    color: ThemeColors.orange,
+    fontSize: 35.0,
+    fontWeight: FontWeight.w900,
+  );
+  static TextStyle greyTextStyle = const TextStyle(
+    color: Colors.grey,
+    fontSize: 15.0,
+  );
+  static TextStyle mainBlackTextStyle = const TextStyle(
+    color: Colors.black,
+    fontSize: 30.0,
+  );
+  static TextStyle subBlackTextStyle = const TextStyle(
+    color: Colors.black,
     fontSize: 15.0,
   );
 }

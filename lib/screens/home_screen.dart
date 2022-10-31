@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter_ui/components/flight_tickets.dart';
 import 'package:flutter_ui/components/flying_details.dart';
 import 'package:flutter_ui/components/sorting_details.dart';
 import 'package:flutter_ui/components/tabs.dart';
@@ -43,6 +44,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 height: 15.0,
               ),
               MyTabs(),
+              SizedBox(
+                height: 10.0,
+              ),
+              FlightTickets()
             ],
           ),
         )
