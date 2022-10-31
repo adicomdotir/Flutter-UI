@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_ui/components/flying_details.dart';
 import 'package:flutter_ui/components/sorting_details.dart';
+import 'package:flutter_ui/components/tabs.dart';
 import 'package:flutter_ui/utilities/theme_colors.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -38,6 +39,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 height: 20.0,
               ),
               SortingDetails(),
+              SizedBox(
+                height: 15.0,
+              ),
+              MyTabs(),
             ],
           ),
         )
