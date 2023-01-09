@@ -26,15 +26,15 @@ flutter:
   uses-material-design: true
 
   assets:
-    - images/
+    - assets/images/
   #   - images/a_dot_ham.jpeg
 
   fonts:
     - family: Helvetica
       fonts:
-        - asset: fonts/Helvetica.ttf
-        - asset: fonts/Helvetica-Bold.ttf
+        - asset: assets/fonts/Helvetica.ttf
+        - asset: assets/fonts/Helvetica-Bold.ttf
           weight: 700
-        - asset: fonts/Helvetica-Light.ttf
+        - asset: assets/fonts/Helvetica-Light.ttf
           weight: 100
   
